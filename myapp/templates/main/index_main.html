@@ -1,0 +1,9 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Main{% endblock %}
+
+{% block content %}
+    {% include 'main/menu.html' %}
+    <img class="back" src="{% static 'main/img/about_back.jpg' %}">
+{% endblock %}
